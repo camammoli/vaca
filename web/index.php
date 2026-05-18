@@ -48,6 +48,15 @@ if ($is_vaca && $page_data) {
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Vaca Compartida · mammoli.ar">
 
+<!-- PWA -->
+<link rel="manifest" href="/vaca/manifest.json">
+<link rel="icon" href="/vaca/icon.svg">
+<meta name="theme-color" content="#3b82f6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Vaca">
+<link rel="apple-touch-icon" href="/vaca/icon.svg">
+
 <style>
 /* ── Variables ──────────────────────────────────────────────── */
 :root {
@@ -940,6 +949,11 @@ function showToast(msg, type = '') {
     t.style.transition = 'opacity .3s';
     setTimeout(() => t.remove(), 300);
   }, 3000);
+}
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/vaca/sw.js', { scope: '/vaca/' });
 }
 </script>
 </body>
