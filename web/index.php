@@ -48,6 +48,10 @@ if ($is_vaca && $page_data) {
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="Vaca Compartida · mammoli.ar">
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Vaca Compartida","url":"https://mammoli.ar/vaca/","description":"Organizá una vaca para regalar en grupo. Compartí el link, todos aportan, vos cobrás.","applicationCategory":"LifestyleApplication","operatingSystem":"Web","inLanguage":"es","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Carlos Mammoli","url":"https://mammoli.ar/"}}
+</script>
+
 <!-- PWA -->
 <link rel="manifest" href="/vaca/manifest.json">
 <link rel="icon" href="/vaca/icon.svg">
