@@ -1,5 +1,7 @@
 # Vaca Compartida
 
+[![Archivado en Software Heritage](https://archive.softwareheritage.org/badge/origin/https://github.com/camammoli/vaca/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/camammoli/vaca)
+
 **[→ Probalo en mammoli.ar/vaca](https://mammoli.ar/vaca/)**
 
 Organizá una vaca entre amigos: cada uno suma su aporte y ven en tiempo real cuánto falta para la meta.
